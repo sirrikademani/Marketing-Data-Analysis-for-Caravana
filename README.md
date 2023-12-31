@@ -1,7 +1,7 @@
-Objective
+Objective:
 The main objective of this assessment is to analyze our marketing data, specifically focusing on user click data and subsequent user actions leading up to sales. Each click event is associated with a specific marketing channel, and your task is to attribute user actions to these channels. Your analysis should help us understand the relative performance for each channel.
 
-Dataset Description
+Dataset Description:
 Working with five datasets provided in CSV format in the data folder that will be preloaded in the starter code. These datasets encompass various aspects of marketing data. A brief description of each dataset is as follows:
 
 1. Click Data: This dataset contains all click events that lead users to Carvana.com from various paid marketing channels.
@@ -34,7 +34,7 @@ channel_id
 channel_name
 Note: For the ad channels, the channel_name is in the format of category-partner_campaign for the marketing channel. Some channels have separate campaigns within them and some don't. Treat the partnership as its own campaign if it doesn't have one. While we’ve provided dummy names in these datasets, the categories, partners, and campaigns mimic real-life examples (e.g., an advertising category could be social or search, an advertising partner could be Google or Disney, and a campaign could be split into different age groups or other customer segments). You will need to parse these out for the following questions
 
-Task
+Task:
 We are interested in understanding the relative performance of each marketing channel in 2022 to inform our course of action for the next year. To do so, we need to understand the economics of each channel, with metrics such as Cost total Per Click (CPC = advertising spend divided by total clicks), Customer Acquisition Cost (CAC = advertising spend divided by sales), and Return on Investment (ROI = gross profit divided by advertising spend).
 
 Additionally, we want to know if there are any partnerships or even individual campaigns which are under or over performing so that we can act appropriately.
